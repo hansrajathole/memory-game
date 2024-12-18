@@ -66,7 +66,7 @@ const App = () => {
             // Placeholder for matched cards
             <div
               key={card.id}
-              className="w-24 h-24 m-2 bg-transparent rounded-lg shadow-lg"
+              className="w-24 h-24 m-2 bg-transparent rounded-lg border-2 border-white shadow-lg"
             ></div>
           ) : (
             <Card
@@ -80,7 +80,7 @@ const App = () => {
           )
         )}
       </div>
-      <div className="mt-6 text-center">
+      <div className="mt-6 text-center flex  gap-14 ">
         <p className="text-xl">Moves: {moves}</p>
         <p className="text-xl">Misses: {misses}</p>
         <p className="text-xl">

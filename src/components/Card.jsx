@@ -11,7 +11,7 @@ const Card = ({ card, handleCardClick, isFlipped }) => {
       {isFlipped ? (
         <span className="text-white">{card.value}</span>
       ) : (
-        <div className="bg-gray-600 w-full h-full rounded-lg"></div>
+        <div className="bg-white text-black flex justify-center items-center text-5xl font-semibold w-full h-full rounded-lg"> ?</div>
       )}
     </div>
   );
